@@ -88,12 +88,12 @@ header > a {
 /* Left Hand Side Description */
 
 #description {
-    height: 800px;
+    height: 500px;
 }
 
 #left-text {
     float: right;
-    padding-top: 30px;
+    padding-top: 100px;
     width: 950px;
     margin-right: 3%;
     letter-spacing: 1px;
