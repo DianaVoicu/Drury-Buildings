@@ -19,7 +19,7 @@ header {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #d9e0e8;
     width: 100%;
-    height: 120px;      
+    height: 110px;      
 }
 
 #logo { 
@@ -29,9 +29,8 @@ header {
     letter-spacing: 4px;
     margin: 4% 0 0 2%;
     font-weight: 900; 
-    border-top: 3px solid #ceb826;
-    border-bottom: 3px solid #ceb826
-
+    border-top: 3px solid #675c13;
+    border-bottom: 3px solid #675c13;
 }
 
 /* Navigation pages */
@@ -42,7 +41,6 @@ header {
     letter-spacing: 4px;
     margin: 5% 0 0 0; 
     font-weight: 600;
-    
 }
 
 .pages li {
@@ -79,11 +77,47 @@ header > a {
     position: relative;
 }
 #message {
-    letter-spacing:3px;
+    letter-spacing: 3px;
     font-weight: 400;
-    position:absolute;
-    top:48%;
+    position: absolute;
+    top: 45%;
     left: 40%;
     font-style: italic;
-    
 }
+
+/* Left Hand Side Description */
+
+#description {
+    height: 800px;
+}
+
+#left-text {
+    float: right;
+    padding-top: 30px;
+    width: 950px;
+    margin-right: 3%;
+    letter-spacing: 1px;
+    border-left: 1px solid #675c13;
+}
+
+#dname {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+}
+
+#link-menu {
+    text-decoration: none;
+    color: #d9e0e8;
+    font-family: Cardo, sans-serif;
+    font-weight: 100;
+    border-bottom: 1px solid #675c13;
+}
+
+#link-menu:hover {
+    background-color: #d9e0e8;
+    color: rgba(42,41,37,255)
+}
+
+
+    
+    
