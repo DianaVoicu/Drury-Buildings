@@ -118,6 +118,32 @@ header > a {
     color: rgba(42,41,37,255)
 }
 
+/* Ilustrations */
 
-    
-    
+#ilustration {
+    height: 500px;
+    width: 100%;
+    display:inline-block;
+    border: 1px solid #675c13;
+}
+
+#ilustration-photo1 {
+    float: left;
+    height: 600px;
+    width: 25%;
+}
+
+#ilustration-photo2 {
+    margin-left: 12.5%;
+    height: 600px;
+    width: 25%;
+}
+
+#ilustration-photo3 {
+    float: right;
+    height: 600px;
+    width: 25%;
+}
+
+
+    border: 0.1px solid #675c13;
