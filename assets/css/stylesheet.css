@@ -1,4 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #d3d7da;
+    width: 100%;
+    height: 120px;      
+}
+
+#logo { 
+    float: left;
+    text-transform: uppercase;
+    font-size: 225%;
+    letter-spacing: 4px;
+    margin: 4% 0 0 2%;    
+}
+
+.pages {
+    float: right;
+    font-size: 150%;
+    letter-spacing: 4px;
+    margin: 5% 0 0 0; 
+    
+}
+
+.pages li {
+    display: inline-block;
+    margin-right: 40px;
+    list-style-type: none;   
+}
+
+header > a {
+    color: rgba(42,41,37,255);
+}
+
+.pages a {
+    color: rgba(42,41,37,255);
+    text-decoration: none;
+    
+}
+
+.pages > li:hover {
+    border-bottom: 2px solid #bf0901;
+}
+
+.pages > a:hover {
+    color: #d3dbd1;
+}
+
+#logo:hover {
+    border-bottom: 2px solid #bf0901;
+}
+
 body {
-    background-color:rgba(0,0,0,255);
-    color:#d1dae1;
+    background-color: rgba(42,41,37,255);
+    color: #d3d7da;
+    font-family: Cardo, sans-serif;
 }
