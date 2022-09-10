@@ -94,8 +94,8 @@ header > a {
 #left-text {
     float: right;
     padding-top: 100px;
-    width: 950px;
-    margin-right: 3%;
+    width: 60%;
+    margin-right: 40px;
     letter-spacing: 1px;
     border-left: 1px solid #675c13;
 }
@@ -122,35 +122,44 @@ header > a {
 
 #ilustration {
     height: 500px;
-    width: 100%;
-    display: inline-block;
+    clear: both;
     border: 1px solid #675c13;
+}
+
+#ilustration > div {
+    display: inline-block;
 }
 
 #ilustration-photo1 {
     float: left;
     height: 600px;
-    width: 25%;
+    margin: 0 auto;
 }
 
 #ilustration-photo2 {
-    margin-left: 12.5%;
     height: 600px;
-    width: 25%;
+    margin: 0 auto;;
 }
 
 #ilustration-photo3 {
     float: right;
     height: 600px;
-    width: 25%;
+    margin:0 auto;
 }
+
+#ilustration-photo4 {
+    float: right;
+    height: 600px;
+    margin:0 auto;
+}
+
 
 /* Opening Hours and Contact details */
 
 #details {
     width: 100%; 
-    height: 400px;
-    margin-top: 250px;
+    height: 6 00px;
+    margin-top: 15%;
 }
 
 .hours {
@@ -179,6 +188,7 @@ th {
     background-color: #c6c8c9;
     text-align: center;
     overflow: hidden;
+    clear: both;
 }
 
 i {
