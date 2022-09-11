@@ -11,6 +11,7 @@ body {
     color: #c6c8c9;;
     font-family: Cardo, sans-serif;
     font-weight: 100;
+    font-size: 1.2em;
 }
 
 /* Header and logo */
@@ -27,7 +28,7 @@ body {
     text-transform: uppercase;
     font-size: 225%;
     letter-spacing: 4px;
-    margin: 4% 0 0 2%;
+    margin: 2% 0 2% 2%;
     font-weight: 900; 
     border-top: 3px solid #675c13;
     border-bottom: 3px solid #675c13;
@@ -39,7 +40,7 @@ body {
     float: right;
     font-size: 150%;
     letter-spacing: 4px;
-    margin: 5% 0 0 0; 
+    margin: 2% 2% 2% 0; 
     font-weight: 600;
 }
 
@@ -73,14 +74,14 @@ header > a {
 
 #headerimg {
     width: 100%;
-    position: relative;
+    animation-name: wall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
 #message {
     letter-spacing: 3px;
     font-size: 1.2em;
-    position: absolute;
-    top: 45%;
-    left: 40%;
     font-style: italic;
 }
 
@@ -122,7 +123,8 @@ header > a {
 #ilustration {
     height: 500px;
     clear: both;
-    border-top: 1px solid #675c13;
+    margin-top: 1%;
+
 }
 
 #ilustration > div {
@@ -131,48 +133,25 @@ header > a {
 
 #ilustration img {
     width: 22.5%;
+    padding-left: 2%;
 }
-
-/* #ilustration-photo1 {
-    float: left;
-    height: 600px;
-    margin: 0 auto;
-}
-
-#ilustration-photo2 {
-    height: 600px;
-    margin: 0 auto;;
-}
-
-#ilustration-photo3 {
-    float: right;
-    height: 600px;
-    margin:0 auto;
-}
-
-#ilustration-photo4 {
-    float: right;
-    height: 600px;
-    margin:0 auto;
-} */
-
 
 /* Opening Hours and Contact details */
 
 #details {
     width: 100%; 
-    height: 6 00px;
+    height: 500px;
     margin-top: 15%;
 }
 
 .hours {
     float: left;
-    margin-left: 20%;
+    margin: 5% 0 5% 10%;
 }
 
 .contact {
     float: right;
-    margin-right: 20%;
+    margin: 5% 10% 5% 0;
 }
 
 th, td {
@@ -238,6 +217,17 @@ h3 {
 }
 
 
+/*  Animation for hero image */
+
+@keyframes wall {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 /* Media queries for tablet */
 
 @media screen and (max-width:768px) {
@@ -250,7 +240,7 @@ h3 {
     }
 }
 
-/* Media quries for Mobiles */
+/* Media queries for Mobiles */
 
 @media screen and (max-width:426px) {
 
