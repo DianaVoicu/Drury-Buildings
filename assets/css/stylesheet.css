@@ -124,10 +124,6 @@ header > a {
     height: 500px;
     clear: both;
     margin-top: 1%;
-
-}
-
-#ilustration > div {
     display: inline-block;
 }
 
@@ -171,7 +167,6 @@ th {
 .contact a:hover {
     background-color: #c6c8c9;
     color: #675c13;
-
 }
 
 /* Footer */
@@ -205,6 +200,10 @@ i {
 
 .menu-list li {
     list-style-type: none;
+}
+
+.space {
+    padding-top: 2%;
 }
 
 /* Images Menu */
@@ -269,7 +268,7 @@ h3 {
     .contact {
         margin: 5% 30%;
     }
-
+}
 /* Media queries for Mobiles */
 
 @media screen and (max-width:426px) {
@@ -283,9 +282,11 @@ h3 {
     }
 
     .contact {
-        margin: 5% 25%;
+        margin: 5% 10%;
     }
 
     #left-text {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
 }
+}
+
