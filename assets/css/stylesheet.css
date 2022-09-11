@@ -73,12 +73,11 @@ header > a {
 
 #headerimg {
     width: 100%;
-    height: 600px;
     position: relative;
 }
 #message {
     letter-spacing: 3px;
-    font-weight: 400;
+    font-size: 1.2em;
     position: absolute;
     top: 45%;
     left: 40%;
@@ -123,14 +122,18 @@ header > a {
 #ilustration {
     height: 500px;
     clear: both;
-    border: 1px solid #675c13;
+    border-top: 1px solid #675c13;
 }
 
 #ilustration > div {
     display: inline-block;
 }
 
-#ilustration-photo1 {
+#ilustration img {
+    width: 22.5%;
+}
+
+/* #ilustration-photo1 {
     float: left;
     height: 600px;
     margin: 0 auto;
@@ -151,7 +154,7 @@ header > a {
     float: right;
     height: 600px;
     margin:0 auto;
-}
+} */
 
 
 /* Opening Hours and Contact details */
@@ -232,4 +235,26 @@ i {
 
 h3 {
     border-bottom: 1px solid #675c13;
+}
+
+
+/* Media queries for tablet */
+
+@media screen and (max-width:768px) {
+
+    #ilustration { 
+        height: unset;
+    }
+    #ilustration img {
+        width: 49.5%;
+    }
+}
+
+/* Media quries for Mobiles */
+
+@media screen and (max-width:426px) {
+
+    #ilustration img {
+        width: 100%;
+    }
 }
