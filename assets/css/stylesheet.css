@@ -230,15 +230,32 @@ h3 {
 
 /* Media queries for tablet */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
 
     #ilustration { 
         height: unset;
     }
     #ilustration img {
-        width: 49.5%;
+        width: 22.5%;
+        padding: 0;
     }
-}
+    #left-text {
+        padding-top: 40px;
+        width: 90%;
+        margin-right: 1%;
+        border-left: 1px solid #675c13;
+    }
+    .pages {
+        margin: 40px 20px 20px 20px;
+    }
+
+    .hours {
+        margin: 5% 30%;
+    }
+
+    .contact {
+        margin: 5% 30%;
+    }
 
 /* Media queries for Mobiles */
 
@@ -247,4 +264,15 @@ h3 {
     #ilustration img {
         width: 100%;
     }
+
+    .hours {
+        margin: 5% 30%;
+    }
+
+    .contact {
+        margin: 5% 25%;
+    }
+
+    #left-text {
+        padding-bottom: 40px;
 }
