@@ -163,6 +163,17 @@ th {
     font-size: 24px;
 }
 
+.contact a {
+    text-decoration: none;
+    color:#c6c8c9;
+}
+
+.contact a:hover {
+    background-color: #c6c8c9;
+    color: #675c13;
+
+}
+
 /* Footer */
 
 .social-media {
@@ -203,13 +214,15 @@ i {
     width: 330px;
     float: right;
     margin: 30px 30px 0 40px;
+    border: 3px inset #675c13;
 }
 
 #menu-photo2 {
     height: 450px;
     width: 330px;
     float: right;
-    margin-top: 15%;   
+    margin: 15% 2% 0 0; 
+    border: 3px inset #675c13;  
 }
 
 h3 {
