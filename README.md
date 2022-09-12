@@ -20,7 +20,13 @@ The users can find a short description about the history of the place, menu, det
 
 * ### The Header ###
   * The clickable navigation pages in the header display a red bottom line when we hover the mouse over them. 
-  * The header image has an animation keyframe that brings the attention on the home page while the photo comes from backwards towards the front.
+  * The header image is the front of the building and has an animation keyframe that brings the attention on the home page while the photo comes from backwards towards the front.
   * In the first paragraph the 'Menu', linked to the menu page has the background-color and the text-color inverted when we hover over so will make aware the user that is a clickable link.
   * The same style applies to the email in contact details so we keep the same structure and style over the page. 
 
+## Tests ##
+
+ * I confirmed that this project is responsive, looks good and function on all standard screen sizes using the Chrome Developer Tool.
+ * I confirmed that all the navigation links are working.
+ * I confirmed that all text is readable and easy to understand.
+  
