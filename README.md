@@ -5,8 +5,7 @@ The users can find a short description about the history of the place, menu, det
 
 ## Features ##
 
-![Header](/assets/images/header.png)
-
+![Header](/assets/images/devices.png)
 
 * ### Navigation ### 
 
@@ -64,13 +63,38 @@ The users can find a short description about the history of the place, menu, det
     * I confirmed the accesibility and the others scores for this website using the lighthouse, desktop and mobile version.
     
     ![Desktop](/assets/images/Project1-desktop.jpg)
+
+
     ![Mobile](/assets/images/Project1-Mobile.jpg)
 
 
 ### Unsolved Bugs ###
     * No unsolved bugs
 
+## Deployment ##
 
+  * The site was deployed to GitHub Pages. The steps are:
+    * In the GitHub repository, navigate to Settings tab 
+    * On the left side click Pages and after select from source section drop-down menu, Main Branch.
+    * After a refresh the page provided the link to the completed website. 
+
+    The link can be accesed here [Drury-Buildings](https://dianavoicu.github.io/Drury-Buildings/index.html)
+
+## Credits ##
+### Content ###
+  * The background-colour and text coulour were selected from the headers' main image and to find the code I used [Image Colour Picker](https://imagecolorpicker.com/en)
+  * The code for Fontawesome used for social media icons was taken from [Code Institute-Love Running project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/02-creating-the-header/02-google-fonts) 
+  * The code for fonts were provided by [Google Fonts](https://fonts.google.com/)
+
+### Media ###
+  * The photos were provided by Aidan Kelly Photography.
+  * The images were optimized by [TinyPNG](https://tinypng.com/)
+
+### Special Thanks to ###
+  * My main support and guidance was [Code Institute](https://learn.codeinstitute.net/)
+  * For particular debugging problems I used [Stack Community](https://stackoverflow.com/)
+  * To practice my ideas or see different approaches I used [W3Schools](https://www.w3schools.com/)
+  
 
 
 
